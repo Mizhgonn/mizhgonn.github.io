@@ -1101,6 +1101,10 @@ body {
   .header__info {
     margin-bottom: 150px;
   }
+  img {
+  max-width: 100%;
+  height: auto
+}
 }
 
 @media screen and (max-height: 876px) {
