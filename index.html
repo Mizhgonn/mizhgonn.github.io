@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <link rel="stylesheet" href="css/style.css">
+   
+    <link rel="stylesheet" href="css/style-switcher.css">
+    <!-- для анимации библиотека -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body> 
+    <div class="wrapper">
+        <!-- в этом контейнере находится навбар -->
+        <header class="header">
+            <nav class="navigation">
+                <div class="container">
+                    <ul class="nav__list padd-15">
+                       
+                        <li class="nav__link"><a href="#portfolio">Portfolio</a></li>
+                        <li class="nav__link">
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                        <div class="day-night s-icon">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+            <!-- бургер меню при уменьшении экрана -->
+            <div class="header__burger">
+                <span></span>
+            </div>
+            <!-- контейнер на основной стр -->
+            <div class="container">
+                <div class="header__row">
+                    <div class="header__info padd-15 animate__animated animate__fadeInLeftBig">
+                        <h3 class="hello">Hello, my name is <span class="name">Mizhgona</span></h3>
+                        <h3 class="my-profession"><span class="typing">WELCOME</span></h3>
+                        <div class="btn__link"><a href="./contact.html" class="btn external">Read More</a></div>
+                    </div>
+                    <div class="sphere">
+                        <img class="avatar animate__animated animate__fadeInLeftBig" src="./images/avatar.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="about" id="about">
+                <div class="container">
+                    <div class="about__row">
+                        <h2 class="title">About Me</h2>
+                        <div class="about__content ">
+                            <div class="about__text animate__animated">
+                                <h3>Hello! My name is <span>Mizhgona</span></h3>
+                                <p>The name was given to me by my grandfather, which means beautiful eyelashes from Persian(pretty ridiculuos). I am the eldest child  and the only daughter in the family. I was born in Saryagash, which in South Kazakhstan. After I turned five, we moved to Petropavlovsk. I was born on the sixth of February.</p>
+                            </div>
+                            <div class="about__info padd-15 animate__animated">
+                                <div class="info__item">
+                                    <p>Birthday: <span>6 Feb</span></p>
+                                </div>
+                                <div class="info__item">
+                                    <p>Age: <span>22</span></p>
+                                </div>
+                                <div class="info__item">
+                                    <p>Country: <span>Kazakhstan</span></p>
+                                </div>
+                                <div class="info__item">
+                                    <p>City: <span>Astana</span></p>
+                                </div>
+                                <div class="info__item">
+                                    <p>Email: <span>mizhgona.nuraliyeva@nu.edu.kz</span>
+                                        
+                                    </p>
+                                </div>
+                                <div class="info__item">
+                                    <p>Phone: <span>+7 (700) 236 4210</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="about__road">
+                            <h2 class="title">Education</h2>
+                            <div class="road__box">
+                                <div class="road animate__animated">
+                                    <div class="road__item">
+                                        <div class="circle__dot"></div>
+                                        <h3 class="road__date">
+                                            <i class="fa fa-calendar"></i>2007-2015
+                                        </h3>
+                                        <h4 class="road__title">Study in gymnasium</h4>
+                                        <p class="road__text">I studied in gymnasium named after Safuan Shaymerdenov in Petropavlovsk</p>
+                                    </div>
+                                    <div class="road__item">
+                                        <div class="circle__dot"></div>
+                                        <h3 class="road__date">
+                                            <i class="fa fa-calendar"></i>2015-2019
+                                        </h3>
+                                        <h4 class="road__title">Nazarbayev Intellectual School</h4>
+                                        <p class="road__text">I was admitted to the NIS and fraduated from that school</p>
+                                    </div>
+                                </div>
+                                <div class="road animate__animated">
+                                    <div class="road__item">
+                                        <div class="circle__dot"></div>
+                                        <h3 class="road__date">
+                                            <i class="fa fa-calendar"></i>2019-2023
+                                        </h3>
+                                        <h4 class="road__title">Nazarbayev University</h4>
+                                        <p class="road__text">As a student, I am doing my Bachelor’s degree in economics and linguistics as a second major at Nazarbayev University</p>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="portfolio" id="portfolio">
+                <div class="container">
+                    
+                    <div class="portfolio__row padd-15 animate__animated">
+                        <div class="portfolio__item ">
+                            <img src="images/classical.jpg" alt="">
+                            <a href="" class="portfolio__btn ">2007-2015</a>
+                        </div>
+                        <div class="portfolio__item ">
+                            <img src="images/nis.jpg" alt="">
+                            <a href="" class="portfolio__btn ">2015-2019</a>
+                        </div>
+                        <div class="portfolio__item ">
+                            <img src="images/nu.jpg" alt="">
+                            <a href="#" class="portfolio__btn ">2019-2023</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="about__road">
+                <h2 class="title">My Road</h2>
+              
+                    <div class="row">
+                        <div class="road animate__animated extra">
+                            <div class="road__item">
+                                <div class="circle__dot"></div>
+                                
+                                <h4 class="road__title"><i class="fa fa-calendar"></i>Certificates</h4>
+                                <p class="road__text">
+                                    •  Participation in online webinar from “EY” 2022b <br>
+                                    •  High Priority certificate from “EY” <br>
+                                    •  Participation in the workshop “Finance in the digital world” at PwC Central and Eastern Europe’s Upskilling Academy 2021 <br>
+                                    •  Certificate of completion of "Speak On" oratory courses 2020 <br>                                                         
+                                    •  Active participation in social life of"Assembly of Kazakhstan" 2019 <br>
+                                    •  Participation in the 4th annual QSI Astana Model United Nations(ASTMUN) 2018 <br>
+                                    •  Participation in Republican workshop and seminar "Ideas that change the world" of educational course "Five institutional reforms of the president" 2018
+                                </p>
+                            </div>
+                        </div>
+                        <img class="img_dop animate__animated" src="./images/certimg.jpg" alt="">
+                    </div>
+                <div class="row">
+                    <div class="road animate__animated extra">
+                        <div class="road__item">
+                            <div class="circle__dot"></div>
+                            
+                            <h4 class="road__title"><i class="fa fa-calendar"></i>Experience</h4>
+                            <p class="road__text">
+                                Kazakhstan Finance Students Association <br>
+                                Branding Department, Ambassador <br>
+                                ·         “Ideas Sprint Challenge” Case championship organizer <br>
+                                ·         “Intro To Big 4” course organizer <br>
+                                ·         Translation of daily posts <br>
+                                ·         Organization of guest lectures <br>
+                                Nazarbayev University Student Investment Fund   <br>                                    
+                                ·         Associate analyst <br>
+                                ·         Pitch writing <br>
+                                ·         Analyzing bull/bear cases for companies <br>
+                                ·         Doing expected cash flow tables <br>
+                            </p>
+                        </div>
+                    </div>
+                    <img class="img_dop animate__animated" src="./images/photo_2022-11-24_19-58-17.jpg" alt="">
+                </div>
+                    
+                    <div class="row">
+                        <div class="road animate__animated extra">
+                            <div class="road__item">
+                                <div class="circle__dot"></div>
+                                
+                                <h4 class="road__title"><i class="fa fa-calendar"></i>Extracurriculars</h4>
+                                <p class="road__text">
+                                    “Central Asian Youth Leadership Academy” Alumna    <br>                        
+                                    Teacher in “Ziyatker” educational center, Petropavlovsk, KZ   <br>  
+                                    Teacher in SkyEng online school        <br>
+                                    Exchange student in “Work and Travel” program, New Hampshire (USA)      <br>                             
+                                    Ambassador of Indonesian Youth Foundation, Remote    <br>  
+                                    Volunteer in International Economics Olympiad 
+                                </p>
+                            </div>
+                        </div>
+                        <img class="img_dop animate__animated" src="./images/photo_2022-12-01_22-59-20.jpg" alt="">
+                    </div>
+                        
+            </div>
+        </div>
+    </div>
+</section>
+        </main>
+
+
+           
+
+        
+    </div>
+</body>
+<script src="js/form.js"></script>
+<!-- эта библиотека используется для анимации печатания -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- это основная библиотека jquery используемая почти во всем коде начинающаяся со знака доллар -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+<script src="js/main.js"></script>
+
+</html>
