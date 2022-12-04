@@ -1095,7 +1095,7 @@ body {
 
 @media screen and (max-width: 576px) {
   .container {
-    width: 500px;
+    width:auto;
     height:auto;
   }
   .header__info {
