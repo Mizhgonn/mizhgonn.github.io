@@ -1105,6 +1105,9 @@ body {
   max-width: 100%;
   height: auto
 }
+  .img_dop{
+    display:none;
+  }
 }
 
 @media screen and (max-height: 876px) {
